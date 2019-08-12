@@ -22,8 +22,8 @@ let g:startify_custom_header = [
   \ ]
 
 " If open new bufer then run Startify
-if bufname('%') == '' && line('$') == 1 && getline(1) == ''
-    autocmd VimEnter * Startify"
-endif
+"if bufname('%') == '' && line('$') == 1 && getline(1) == ''
+"    autocmd VimEnter * Startify"
+"endif
 
 " Problem during load session with NERDTree FIXME pleases

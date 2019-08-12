@@ -32,3 +32,6 @@ let g:win_shell = (has('win32') || has('win64')) && &shellcmdflag =~ '/'
 
 " ---- Start page (startify) settings ----
 :source $HOME/.vim/config/startify_settings.vim
+
+" ---- Create CPP files settings ----
+:source $HOME/.vim/config/create_cpp_files.vim
